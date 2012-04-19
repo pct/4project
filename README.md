@@ -1,10 +1,12 @@
-== 4Project
+4Project
+== 
 
 4project is a very simple project cost management tool.
 
 如果你會寫 rails, 你會知道這專案的現況很廢，是隨便都可以刻出來的。
 
-== 安裝、開始用
+安裝、開始用
+== 
 
 `$ git clone https://github.com/pct/4project`
 
