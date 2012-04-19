@@ -36,3 +36,9 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+#
+# 4project
+gem 'rails_admin'
+
+
+gem "devise"
