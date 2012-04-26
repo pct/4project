@@ -39,6 +39,6 @@ gem 'jquery-rails'
 #
 # 4project
 gem 'rails_admin'
-
+gem 'mysql2'
 
 gem "devise"
