@@ -1,3 +1,4 @@
+# coding: utf-8
 # RailsAdmin config file. Generated on April 19, 2012 11:24
 # See github.com/sferik/rails_admin for more informations
 
@@ -16,7 +17,7 @@ RailsAdmin.config do |config|
   # config.audit_with :paper_trail, User
 
   # Set the admin name here (optional second array element will appear in a beautiful RailsAdmin red ©)
-  config.main_app_name = ['P4', 'Admin']
+  config.main_app_name = ['4Project', '']
   # or for a dynamic name:
   # config.main_app_name = Proc.new { |controller| [Rails.application.engine_name.titleize, controller.params['action'].titleize] }
 
@@ -74,6 +75,12 @@ RailsAdmin.config do |config|
   #     # Here goes the fields configuration for the list view
   #   end
   # end
+
+  config.model User do
+    object_label_method do
+      :show_username
+    end
+  end
 
   # Your model's configuration, to help you get started:
 
